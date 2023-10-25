@@ -1,0 +1,138 @@
+@import url("https://fonts.googleapis.com/css2?family=Nosifer&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&family=Metal+Mania&family=Rajdhani:wght@300;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap");
+/*This is navbar*/
+svg {
+  position: absolute;
+  z-index: -1;
+}
+nav {
+  box-sizing: border-box;
+}
+.navbar {
+  /*border: 2px black solid;*/
+  display: flex;
+  justify-content: space-between;
+  justify-content: flex-start;
+  gap: 250px;
+}
+.title {
+  /*border: 1px red solid;*/
+  width: 400px;
+  gap: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 0px;
+}
+.navtitle2 {
+  /* border: 1px blue solid;*/
+  margin-bottom: 0;
+}
+.navtilte1 {
+  /*border: 1px blue solid;*/
+  margin-top: 0;
+  font-family: "Nosifer", sans-serif;
+  font-size: 40;
+}
+.navimage {
+  border-radius: 10px;
+  box-shadow: 10px 50px 50px;
+}
+/*this is body*/
+body {
+  background: #8e9eab; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #eef2f3,
+    #8e9eab
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #eef2f3,
+    #8e9eab
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  margin-top: 0;
+  margin-right: 0;
+  margin-left: 0;
+}
+/*this is the section*/
+main {
+  background-color: white;
+  width: 90%;
+  margin: auto;
+  margin-top: 110px;
+  margin-bottom: 10px;
+  padding: 5px;
+  border-radius: 10%;
+}
+.card {
+  /*border: 2px black solid;*/
+  width: 400px;
+  position: relative;
+  height: 500px;
+  box-shadow: 8px 8px 5px rgb(143, 143, 143);
+  border-radius: 5%;
+}
+section {
+  /*border: 1px red solid;*/
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+.card-title {
+  /*border: 1px blue solid;*/
+  display: flex;
+  justify-content: space-around;
+}
+img {
+  height: 350px;
+}
+.image-blok {
+  /*border: 1px red solid;*/
+  display: flex;
+  justify-content: center;
+}
+#heart {
+  position: absolute;
+  top: 20;
+  right: 10;
+}
+.qnty {
+  /*border: 1px blue solid;*/
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.fa-circle-xmark {
+  position: absolute;
+  right: 10;
+}
+.carttitle {
+  /*border: 1px black solid;*/
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  font-family: "Dancing Script", cursive;
+  font-size: 35;
+}
+.cartfooter {
+  /*border: 1px black solid;*/
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  font-family: "Dancing Script", cursive;
+  font-size: 35;
+}
+h2,
+h3 {
+  font-family: "Dancing Script", cursive;
+}
+footer {
+  /*border: 1px black solid;*/
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-family: "Dancing Script", cursive;
+}
