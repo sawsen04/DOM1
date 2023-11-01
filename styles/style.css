@@ -84,6 +84,7 @@ section {
   /*border: 1px blue solid;*/
   display: flex;
   justify-content: space-around;
+  align-items: center;
 }
 img {
   height: 350px;
@@ -104,9 +105,9 @@ img {
   justify-content: space-around;
   align-items: center;
 }
-.fa-circle-xmark {
+.fa-trash-can {
   position: absolute;
-  right: 10;
+  right: 15;
 }
 .carttitle {
   /*border: 1px black solid;*/
@@ -117,6 +118,9 @@ img {
   font-family: "Dancing Script", cursive;
   font-size: 35;
 }
+.fa-lg:hover {
+  cursor: pointer;
+}
 .cartfooter {
   /*border: 1px black solid;*/
   display: flex;
@@ -126,7 +130,9 @@ img {
   font-size: 35;
 }
 h2,
-h3 {
+h3,
+.priceunit,
+span {
   font-family: "Dancing Script", cursive;
 }
 footer {
@@ -135,4 +141,10 @@ footer {
   justify-content: center;
   color: white;
   font-family: "Dancing Script", cursive;
+}
+.fa-heart {
+  color: #bababa;
+}
+.toggleheart {
+  color: red;
 }

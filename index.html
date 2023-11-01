@@ -8,7 +8,7 @@
     ></script>
     <title>Shopping Cart</title>
     <link rel="shortcut icon" href="./assets/icon.png" type="image/x-icon" />
-    <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="stylesheet" href="styles/style.css" />
   </head>
   <body>
     <!--This is nav bar-->
@@ -35,7 +35,7 @@
     </nav>
     <main>
       <div class="carttitle">
-      <h1>My Cart</h1>
+        <h1>My Cart</h1>
       </div>
       <section>
         <!--This is first card-->
@@ -45,24 +45,26 @@
           </div>
           <div class="card-title">
             <h2>Women's dress</h2>
-            <h3>Price: 54€</h3>
+            <h3>Price:</h3>
+            <span class="priceunit">54</span>
+            <span>€</span>
           </div>
           <div class="qnty">
             <h3>Quantity</h3>
             <div>
-              <label for=""></label>
-              <input type="number" id="quantity" min="0" max="1000000" />
+              <i
+                class="fa-solid fa-circle-plus fa-lg"
+                style="color: #000000"
+              ></i>
+              <span class="quantité">0</span>
+              <i
+                class="fa-solid fa-circle-minus fa-lg"
+                style="color: #000000"
+              ></i>
             </div>
           </div>
-          <i
-            id="heart"
-            class="fa-solid fa-heart fa-lg"
-            style="color: #bababa"
-          ></i>
-          <i
-            class="fa-sharp fa-solid fa-circle-xmark fa-lg"
-            style="color: #afafaf"
-          ></i>
+          <i id="heart" class="fa-solid fa-heart fa-lg"></i>
+          <i class="fa-solid fa-trash-can fa-lg" style="color: #000000"></i>
         </div>
         <!--This is second card-->
         <div class="card">
@@ -71,24 +73,26 @@
           </div>
           <div class="card-title">
             <h2>Women's Heeled Sandels</h2>
-            <h3>Price: 99€</h3>
+            <h3>Price:</h3>
+            <span class="priceunit">99</span>
+            <span>€</span>
           </div>
           <div class="qnty">
             <h3>Quantity</h3>
             <div>
-              <label for=""></label>
-              <input type="number" id="quantity" min="0" max="1000000" />
+              <i
+                class="fa-solid fa-circle-plus fa-lg"
+                style="color: #000000"
+              ></i>
+              <span class="quantité">0</span>
+              <i
+                class="fa-solid fa-circle-minus fa-lg"
+                style="color: #000000"
+              ></i>
             </div>
           </div>
-          <i
-            id="heart"
-            class="fa-solid fa-heart fa-lg"
-            style="color: #bababa"
-          ></i>
-          <i
-            class="fa-sharp fa-solid fa-circle-xmark fa-lg"
-            style="color: #afafaf"
-          ></i>
+          <i id="heart" class="fa-solid fa-heart fa-lg"></i>
+          <i class="fa-solid fa-trash-can fa-lg" style="color: #000000"></i>
         </div>
         <!--This is third card-->
         <div class="card">
@@ -97,31 +101,40 @@
           </div>
           <div class="card-title">
             <h2>Women's Summer Hat</h2>
-            <h3>Price: 35€</h3>
+            <h3>Price:</h3>
+            <span class="priceunit">35</span>
+            <span>€</span>
           </div>
           <div class="qnty">
             <h3>Quantity</h3>
             <div>
-              <label for=""></label>
-              <input type="number" id="quantity" min="0" max="1000000" />
+              <i
+                class="fa-solid fa-circle-plus fa-lg"
+                style="color: #000000"
+              ></i>
+              <span class="quantité">0</span>
+              <i
+                class="fa-solid fa-circle-minus fa-lg"
+                style="color: #000000"
+              ></i>
             </div>
           </div>
-          <i
-            id="heart"
-            class="fa-solid fa-heart fa-lg"
-            style="color: #bababa"
-          ></i>
-          <i
-            class="fa-sharp fa-solid fa-circle-xmark fa-lg"
-            style="color: #afafaf"
-          ></i>
+          <i id="heart" class="fa-solid fa-heart fa-lg"></i>
+          <i class="fa-solid fa-trash-can fa-lg" style="color: #000000"></i>
         </div>
       </section>
       <div class="cartfooter">
-      <h1>TOTAL</h1>
+        <span>Total Price : </span>
+        <span class="total-price">0</span>
+        <span>€</span>
+      </div>
     </main>
     <footer>
-      <p>We are in 10 countries: Tunisia, France, Turkey, Spain, Italy and Germany</p>
+      <p>
+        We are in 10 countries: Tunisia, France, Turkey, Spain, Italy and
+        Germany
+      </p>
     </footer>
   </body>
+  <script src="script.js"></script>
 </html>
